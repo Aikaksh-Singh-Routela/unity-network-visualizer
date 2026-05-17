@@ -1,2 +1,5 @@
-# unity-network-visualizer
-Real-time network threat visualization in Unity 3D
+# 3D Network Threat Visualizer
+
+This project combines Python machine learning (98.92% accuracy Random Forest model) with Unity 3D to visualize network threats in real-time. The Python script generates simulated network logs, classifies them as normal or suspicious (Ransomware, DDoS, Port Scan, etc.), and sends the results via UDP to Unity. Unity then displays green spheres for normal traffic and red spheres for detected threats, with floating text showing the threat type. The entire pipeline runs at 2 logs/second with <10ms latency. To run it, first install Python dependencies (`pip install scikit-learn pandas numpy joblib`), then open the Unity project and press Play. Finally, run `unity_log_sender.py` in Python. You'll see green and red spheres appearing in the 3D space. This project demonstrates polymathic skills across AI/ML, real-time systems (UDP streaming), cybersecurity, and game development (Unity/C#). The model achieves 98.92% accuracy on network threat detection. Future improvements include adding more attack types, threat heatmaps, and WebGL deployment.
+
+**Author:** Aikaksh Singh Routela | [GitHub](https://github.com/Aikaksh-Singh-Routela) | [LinkedIn](https://linkedin.com/in/aikaksh-singh-routela) | MIT License
