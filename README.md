@@ -10,8 +10,9 @@
 
 A **polymathic project** combining Python Machine Learning (98.92% accuracy) with Unity 3D to visualize network threats in real-time. The system simulates network logs, classifies threats using a Random Forest model, and displays them in an interactive 3D environment.
 
-🔗 Links
-GitHub: unity-network-visualizer
+## 🔗 Links
+
+- **GitHub**: [unity-network-visualizer](https://github.com/Aikaksh-Singh-Routela/unity-network-visualizer)
 
 ### Key Features
 
